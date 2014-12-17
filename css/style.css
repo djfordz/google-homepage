@@ -32,6 +32,7 @@ main {
 #logo {
 	padding-bottom: 30px;
 }
+
 /**
 *
 * Header Section
@@ -78,7 +79,7 @@ a:hover {
 button#share {
 	background-color: #f5f5f5;
 	color: #444;
-	padding: 7px 15px 7px 15px;
+	padding: 5px 10px 5px 10px;
 	border: none;
 	position: relative;
 }
@@ -140,7 +141,7 @@ h1:nth-child(6) {
 **/
 
 #search-bar {
-    height: 28px;
+    height: 20px;
     width: 600px;
 	margin-left: -33px;
 	font-size: 13pt;
@@ -164,7 +165,7 @@ h1:nth-child(6) {
 }
 .fa-microphone {
     float: right;
-    margin-top: 4px;
+    color: c2c2c2;
 }
 /**
 *
@@ -186,6 +187,7 @@ h1:nth-child(6) {
 }
 #nav-footer > ul > li {
 	margin: 0 10px 0 10px;
+    font-size: 12px;
 }
 #nav-footer ul:first-child {
 	text-align: left;
