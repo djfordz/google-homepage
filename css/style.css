@@ -122,14 +122,13 @@ h1:nth-child(3) {
 h1:nth-child(5) {
 	color: #009C58;
 	margin-left: -4px;
-	: 1px solid #009c58;
 }
 h1:nth-child(6) {
 	margin-left: -2px;
 }
 .middle {
 	width: 500px;
-	height: auto;
+	min-height: 500px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -140,15 +139,17 @@ h1:nth-child(6) {
 *
 **/
 
-textarea {
+#search-bar {
+    height: 28px;
+    width: 600px;
 	margin-left: -33px;
 	font-size: 13pt;
 	float: left;
-	border: 1px solid #ccc;
+	border: 1px solid #c2c2c2;
 	padding: 5px 8px 0 8px;
 	display: block;
 }
-textarea:focus {
+#search-bar:focus {
 	border: .025em solid blue;
 }
 #logo button {
@@ -161,23 +162,27 @@ textarea:focus {
 	font-weight: bold;
 	color: #444;
 }
+.fa-microphone {
+    float: right;
+    margin-top: 4px;
+}
 /**
 *
 * Footer
 *
 **/
 
-footer {
-	width: 100%;
+#footer {
+    width:100%;
+    height: auto;
 	background:#f1f1f1;
-	width:100%;
-	height:30px;
 	position:absolute;
-	bottom:0;
-	
+    margin: 0;
+	bottom: 0;
 }
 #nav-footer > ul {
 	display: inline-block;
+    margin 0px;
 }
 #nav-footer > ul > li {
 	margin: 0 10px 0 10px;
