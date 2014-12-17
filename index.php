@@ -20,7 +20,7 @@
 				<li><a href="#apps"><i class="fa fa-th fa-lg"></i></a></li>
 				<li><a href="#notifactions"><i class="fa fa-bell fa-lg"></i></a></li>
 				<li><button id="share">Share</button></li>
-				<li><a href="#avatar"><img src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?f=y&s=33"></a></li>
+				<li><a href="#avatar"><img src="http://www.gravatar.com/avatar/<?php echo md5( strtolower( trim( "MyEmailAddress@example.com " ) ) ); ?>?f=y&s=33"></a></li>
 			</ul>
 			</nav>
 		</header>
