@@ -129,7 +129,7 @@ h1:nth-child(6) {
 }
 .middle {
 	width: 500px;
-	min-height: 500px;
+	min-height: 400px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -181,7 +181,7 @@ h1:nth-child(6) {
 }
 #nav-footer > ul {
 	display: inline-block;
-    margin: 5px 0 5px 0;
+    margin: 8px 0 8px 0;
 }
 #nav-footer > ul > li {
 	margin: 0 10px 0 10px;
