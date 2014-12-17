@@ -175,19 +175,16 @@ h1:nth-child(6) {
 
 #footer {
     width:100%;
-    height: auto;
 	background:#f1f1f1;
 	position:absolute;
-    margin: 0;
 	bottom: 0;
 }
 #nav-footer > ul {
 	display: inline-block;
-    margin 0px;
+    margin: 5px 0 5px 0;
 }
 #nav-footer > ul > li {
 	margin: 0 10px 0 10px;
-    font-size: 12px;
 }
 #nav-footer ul:first-child {
 	text-align: left;
